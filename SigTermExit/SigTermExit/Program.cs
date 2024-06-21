@@ -35,8 +35,9 @@ namespace SigTermExit
 
             while (run)
             {
+
                 Task.Delay(3000).Wait();
-                Console.WriteLine("Main loop");
+                Console.WriteLine("processing a rabbitmq message");
             }
             Console.WriteLine($"Main loop Finished main loop {DateTime.Now}");
             Task.Delay(10000).Wait();
